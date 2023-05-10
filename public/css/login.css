@@ -1,0 +1,38 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw 25vw;
+}
+
+.input-normal {
+  border: none;
+  border-radius: 5px;
+  padding: 2vh;
+  margin: 1vw;
+}
+
+.boton-formulario {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 3vh;
+  background-color: var(--azul);
+  color: var(--blanco);
+}
+
+.boton-formulario:hover {
+  background-color: #0022AA;
+}
+
+@media only screen and (min-width: 601px) {
+  .radio-container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .radio-container {
+    width: 40%;
+  }
+}
