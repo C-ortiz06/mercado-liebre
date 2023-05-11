@@ -37,7 +37,7 @@ header {
 .superior {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;;
+  justify-content: space-between;
 }
 
 .buscar-form {
@@ -190,7 +190,7 @@ main {
   transition: all 2s;
 }
 .productos:hover .icono-contenedor i {
-  transform: rotate(-90deg); 
+  transform: rotate(-90deg);
   transition: all 1s;
 }
 .producto {
@@ -202,8 +202,7 @@ main {
 }
 .productos:hover .producto {
   opacity: 1;
-};
-
+}
 
 /* footer */
 
@@ -248,10 +247,11 @@ main {
     justify-content: space-between;
     margin-top: 3vw;
   }
-  #dos{
-    width: 30vw
+
+  #dos {
+    width: 30vw;
   }
-  .buscar{
+  .buscar {
     width: 30vw;
   }
   .texto-header {
@@ -268,7 +268,6 @@ main {
   .productos {
     width: 40%;
   }
-  
 }
 
 /* para compu */
@@ -281,15 +280,16 @@ main {
   .boton-div {
     display: none;
   }
-  .buscar{
+
+  .buscar {
     width: 30vw;
   }
-  #dos{
+  #dos {
     width: 30vw;
   }
-.texto-header{
-  width: 30vw;
-}
+  .texto-header {
+    width: 30vw;
+  }
   .superior {
     display: flex;
     justify-content: space-between;
